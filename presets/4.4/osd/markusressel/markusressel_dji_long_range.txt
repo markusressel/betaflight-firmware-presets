@@ -4,7 +4,13 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: longrange, OSD
 #$ AUTHOR: Markus Ressel
-#$ DESCRIPTION: Applies the OSD settings for DJI Long Range
+
+#$ DESCRIPTION:
+#$ DESCRIPTION: <img src="https://github.com/markusressel/betaflight-firmware-presets/raw/master/resources/logo_black.svg" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/>
+#$ DESCRIPTION:
+#$ DESCRIPTION: Description
+#$ DESCRIPTION: ------------
+#$ DESCRIPTION: Applies the OSD settings for DJI Long Range.
 
 
 set osd_units = METRIC
