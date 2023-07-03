@@ -16,11 +16,11 @@ jobs:
     steps:
       - name: Setup Node.js
         uses: actions/setup-node@v3
-        with:
-          token: ${{ secrets.CI_COMMIT_TOKEN }}
       
       - name: Checkout the repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.CI_COMMIT_TOKEN }}
       
       - name: Check index
         run: node indexer/check.js
