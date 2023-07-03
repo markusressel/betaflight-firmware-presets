@@ -5,6 +5,8 @@
 #$ KEYWORDS: longrange, OSD
 #$ AUTHOR: Markus Ressel
 
+#$ PARSER: MARKED
+
 #$ DESCRIPTION:
 #$ DESCRIPTION: <img src="https://github.com/markusressel/betaflight-firmware-presets/blob/master/presets/4.4/osd/markusressel/markusressel_dji_long_range.png?raw=true" width="500px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
