@@ -1,0 +1,59 @@
+name: refresh-index
+
+on:
+  push:
+    branches: [ master ]
+    tags:
+      - '*.*.*' # Push events to matching v*, i.e. v1.0, v20.15.10
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  refresh-index:
+    name: Refresh Preset Index
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+      
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      
+      - name: Check index
+        run: node indexer/check.js
+      
+      - name: Update index
+        run: node indexer/indexer.js
+        
+      - name: Commit index
+        uses: EndBug/add-and-commit@v9
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          add: 'index.json index_hash.txt'
+
+          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
+          # Default: '.'
+          # cwd: './path/to/the/repo'
+
+          # Determines the way the action fills missing author name and email. Three options are available:
+          # - github_actor -> UserName <UserName@users.noreply.github.com>
+          # - user_info -> Your Display Name <your-actual@email.com>
+          # - github_actions -> github-actions <email associated with the github logo>
+          # Default: github_actor
+          default_author: user_info
+          fetch: true
+          message: 'GitHub Action: Updated preset index'
+
+          # The way the action should handle pathspec errors from the add and remove commands. Three options are available:
+          # - ignore -> errors will be logged but the step won't fail
+          # - exitImmediately -> the action will stop right away, and the step will fail
+          # - exitAtEnd -> the action will go on, every pathspec error will be logged at the end, the step will fail.
+          # Default: ignore
+          pathspec_error_handling: exitImmediately
+          push: true
+
+          # Arguments for the git tag command (the tag name always needs to be the first word not preceded by an hyphen)
+          # Default: ''
+          # tag: 'v1.0.0 --force'
