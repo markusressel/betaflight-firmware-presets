@@ -151,7 +151,8 @@
     "author": [
       "Betaflight",
       "Garban",
-      "KMfpv"
+      "KMfpv",
+      "Markus Ressel"
     ],
     "keywords": [
       "Acrobaix",
@@ -178,6 +179,7 @@
       "leds",
       "log",
       "logging",
+      "longrange",
       "mode",
       "modes",
       "names",
@@ -559,6 +561,22 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/markusressel/markusressel_dji_long_range.txt",
+      "hash": "078a57bcef9f5e1bf8297e70e958641cc737fb427cb6cddee45dd1960cfc78a4",
+      "title": "markusressel: OSD - DJI Long Range",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "longrange",
+        "OSD"
+      ],
+      "author": "Markus Ressel",
       "priority": 0
     },
     {
