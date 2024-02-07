@@ -12,14 +12,6 @@
 #$ DESCRIPTION: ------------
 #$ DESCRIPTION: Applies the default Modes settings for Markus Ressel.
 
-#$ TITLE: Default 4.3 Modes and Adjustment settings
-#$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: MODES
-#$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets modes and adjustment ranges to 4.3 defaults
-
 # aux switch settings
 
 aux 0 0 0 1150 1550 0 0
