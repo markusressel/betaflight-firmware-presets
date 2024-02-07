@@ -547,6 +547,21 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/modes/markusressel/markusressel_modes.txt",
+      "hash": "095430bb7d49d20496283e7700726a2f9c01118ec86978333d9ad4f0999336e4",
+      "title": "markusressel: Modes - Default Mode Setup",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "MODES"
+      ],
+      "author": "Markus Ressel",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/defaults.txt",
       "hash": "d594f4691e29d05efc4b37995b2f218fbe31f930157c3499755753214fa87254",
       "title": "Default 4.4 OSD settings",
