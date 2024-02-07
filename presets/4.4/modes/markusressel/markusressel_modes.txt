@@ -1,0 +1,15 @@
+#$ TITLE: markusressel: Modes - Default Mode Setup
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: MODES
+#$ AUTHOR: Markus Ressel
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION:
+#$ DESCRIPTION: Description
+#$ DESCRIPTION: ------------
+#$ DESCRIPTION: Applies the default Modes settings for Markus Ressel.
+
+set mode
