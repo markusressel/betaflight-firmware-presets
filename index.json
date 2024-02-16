@@ -138,6 +138,7 @@
       "4.5"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -161,6 +162,7 @@
       "aux",
       "basic",
       "blackbox",
+      "BNF",
       "camera",
       "camera_control",
       "clear",
@@ -545,6 +547,21 @@
       ],
       "author": "Betaflight",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/bnf/markusressel/markusressel_aos_5_v5.txt",
+      "hash": "94cf10a999b3778bb627892691278a4a6d3d20864db4df376268e1a95408f3eb",
+      "title": "markusressel: AOS 5 V5 - Bind & Fly Configuration",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "BNF"
+      ],
+      "author": "Markus Ressel",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/modes/markusressel/markusressel_modes.txt",
