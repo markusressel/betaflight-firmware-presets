@@ -595,6 +595,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/other/markusressel_gps_rescue.txt",
+      "hash": "ad831545d049f7e997738457fa958b90782927b2899c1cd7b3ecea5c5f0c1f6b",
+      "title": "markusressel: GPS Rescue - Default GPS Rescue Setup",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "MODES"
+      ],
+      "author": "Markus Ressel",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/rc_link/reset_to_defaults.txt",
       "hash": "fe6be880bb051e1294253d2f583def5c9ad8c540d3463540ec9b80fa2a5d775a",
       "title": "Reset ALL RC link related settings",
