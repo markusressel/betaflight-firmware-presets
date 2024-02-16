@@ -24,7 +24,7 @@ gps_ublox_use_galileo = ON
 gps_set_home_point_once = ON
 gps_use_3d_speed = OFF
 # gps_sbas_integrity = OFF
-# gps_rescue_min_start_dist = 10
+gps_rescue_min_start_dist = 10
 gps_rescue_alt_mode = MAX_ALT
 # Allowed values: MAX_ALT, FIXED_ALT, CURRENT_ALT
 
@@ -58,9 +58,30 @@ gps_rescue_allow_arming_without_fix = ON
 # get failsafe
 failsafe_delay = 15
 failsafe_off_delay = 10
-failsafe_throttle = 1220
+failsafe_throttle = 1310
 failsafe_switch_mode = STAGE1
 failsafe_throttle_low_delay = 100
 failsafe_procedure = GPS-RESCUE
 failsafe_recovery_delay = 10
 failsafe_stick_threshold = 30
+
+# Channel Fallback Settings
+# rxfail
+rxfail 0 a
+rxfail 1 a
+rxfail 2 a
+rxfail 3 s 1300
+rxfail 4 h
+rxfail 5 h
+rxfail 6 s 1500
+rxfail 7 h
+rxfail 8 s 1850
+rxfail 9 h
+rxfail 10 h
+rxfail 11 h
+rxfail 12 h
+rxfail 13 h
+rxfail 14 h
+rxfail 15 h
+rxfail 16 h
+rxfail 17 h
